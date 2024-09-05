@@ -1,0 +1,47 @@
+1.A variable - is a container that holds data values.
+Variables allows you to store,update and manipulate information throughout your data.
+
+**Declaring varilable: ways to declare a variable are Var,Let,Const.
+*var:function scope and can be declared.
+*let:has block scope & can be reassigned but (not declared within the same scope).
+*const:has a block scope but(Cannot be reassigned or declared) making it ideal for values that shouldn't be changed.
+
+2.DataTypes: in javascript degfine the type of data that a variable can hold.
+There are 5 common datatypes:
+-string: A sequence of characters used to  present TEXTS.
+-boolen: Represent true/false typically used in conditions and logical operations.
+-numbers: Used for numeric values 
+-arrays: list of values, which can be any type store din single variable.
+-objects: Complex data structure that can hold multiple values and functions as properties
+--------------------------------------------------------------------------------------------
+
+OPERATORS.
+----------
+Operations are symbols or keywords used to performoperations on values.
+They are the building blocks of expression in JavaScript.
+1.Arithmetic operations
+2.Assignment operators
+3.Comparison operators
+4.Logical operators- used to combine multiple conditions
+       &&(AND), ||(OR), !(NOT).
+	   
+5.Unary operators
+6.Ternary operators
+
+EXPRESSIONS.
+------------
+Expressions -is a combination of values, varilables and operators that evaluates to single values.
+Type of expressions:
+1.Arithmetic expressions: used to perform calculations
+   ( let total = price* quantinty; )
+	
+2.Comparison expressions: Use comparison operators to evaluate conditions.
+  ( let isAdult = age >= 18; )
+
+3.Logical expressions: Combine multiple conditions using logical operators.
+
+
+( let canVoe = (age .=18) &&  ( citizen===true )
+-----------------------------------------------------------------------------
+The <script> tag
+in HTMLthe javascript code is inserted between <script> and </script>
