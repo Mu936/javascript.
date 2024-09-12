@@ -51,3 +51,33 @@ CONTROL STRUCTRES(if-else, switch)
 
 
 
+
+->DOM.
+1.DOM- is a structured representation of an HTML document,
+It represents the page so that programs
+can change the document structure, style, and content.
+->DOM manipulation is a concept allows you to interact with and change 
+the HTML and CSS of a webpage using JavaScript
+
+
+
+2.SELECTING a DOM elements means targetting specefic parts of html 
+documents, so that it can be manupulated with JavaScript.
+
+*Methods for selecting elements:
+- document.getElementById();
+let heading = document.getElementById("main-heading");
+heading.textContent = "My first javascript"; ...//modifying its content
+
+let =document.getElementByClassName("");
+let =document.getElementByTagName("");
+let =document.querySelector("");
+let =document.querySelectorAll("");
+
+
+
+
+
+
+
+
