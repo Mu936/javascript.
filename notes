@@ -107,8 +107,17 @@ modified in varioius ways such as,
  |newDiv.textContent = "This is a new element.";
  |document.body.appendChild(newDiv);  // 
  
+ *---EVENT-HANDLING---*
+Event- An event is an action or occurrence that happens in the browser, such as a user clicking a button,
+typing in a text field, or scrolling a page ,javaScript can detect these events and respond to them,enabling interactive behavior on web pages.
+ -> The are common list of HTML Events:
+ .0nchange- An HTML element has been changed
+ .Onclick- The user clicks html element
+ .onmouseover-The user moves the mouse over a HTML element
+ .onmouseout-
+ .onkeydown- user pushes a keyboard key
+ .onload- the browser has finished loading a page
  
- ------EVENT-HANDLING-----
  
   
  
