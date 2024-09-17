@@ -75,6 +75,45 @@ let =document.querySelector("");
 let =document.querySelectorAll("");
 
 
+** adding a Javascript to a html is called: inline javascript.
+
+2. Modifying DOM elements: once elements are selected they can be 
+modified in varioius ways such as,
+(changing their Content, Style, Attributes or Structure).
+
+..There are 5 common ways of modifications:
+ -> changing content.
+ textContent / innerHTML
+ Example: heading.textContent = "Welcome";
+ 
+ ->Changing Styles.
+ Using the style property to modify css
+ Example: element.style.color = "blue";
+ paragraph.style.color = "blue";
+ 
+ ->Adding/Removing Classes.
+ Adding class= classList.adding
+ paragraph.classList.add("highlight");
+ Removing class= classList.remove
+ 
+ ->Changing Attributes:
+ changing Attributes like src,href,alt- Using setAttributes, removeAttributes.
+ 
+ ->Creating and Inserting Elements:
+  To create and insert elements we use
+  createElement / appendChild.
+  
+ |Example:let newDiv = document.createElement("div");
+ |newDiv.textContent = "This is a new element.";
+ |document.body.appendChild(newDiv);  // 
+ 
+ 
+ ------EVENT-HANDLING-----
+ 
+  
+ 
+
+
 
 
 
